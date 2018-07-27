@@ -1,0 +1,8 @@
+Flask
+SQLAlchemy
+flask_restful
+marshmallow
+pytest
+flask_cors
+pandas
+scikit-learn

@@ -13,7 +13,6 @@ api = Api(app)
 
 
 class CardiacAPI(Resource):
-    # shows the list of all users
     def post(self):
         req_data = request.get_json()
         req_data = {k: [int(v)] for k, v in req_data.items()}
@@ -26,7 +25,6 @@ class CardiacAPI(Resource):
 
 
 class KidneyAPI(Resource):
-    # shows the list of all users
     def post(self):
         req_data = request.get_json()
         req_data = {k: [int(v)] for k, v in req_data.items()}
